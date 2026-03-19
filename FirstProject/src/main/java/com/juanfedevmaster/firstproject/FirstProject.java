@@ -4,6 +4,7 @@
 
 package com.juanfedevmaster.firstproject;
 
+import com.juanfedevmaster.firstproject.model.Empleado;
 import java.util.Scanner;
 
 /**
@@ -18,7 +19,13 @@ public class FirstProject {
         System.out.println("Ingrese su nombre:");
         String nombre = scan.nextLine();
         
-        System.out.println("Hola: "+nombre);
-            
+        System.out.println("Ingrese su apellido:");
+        String apellido = scan.nextLine();
+        
+        System.out.println("Ingrese su cedula:");
+        String cedula = scan.nextLine();
+        
+        Empleado emp = new Empleado(nombre, apellido, cedula);
+                   
     }
 }
