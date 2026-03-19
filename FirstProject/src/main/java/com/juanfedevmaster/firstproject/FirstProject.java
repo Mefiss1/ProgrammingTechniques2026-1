@@ -26,6 +26,8 @@ public class FirstProject {
         String cedula = scan.nextLine();
         
         Persona persona = new Persona(nombre, apellido, cedula);
+
+        System.out.println("Nombre de la persona: "+persona.nombre);
                    
     }
 }
