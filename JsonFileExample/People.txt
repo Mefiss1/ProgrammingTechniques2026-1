@@ -1,0 +1,6 @@
+1,Juan Felipe,Quintana,40
+2,Laura,Quintana,36
+4,Camilo,Gómez,46
+1,Juan Felipe,Quintana,40
+2,Laura,Quintana,36
+4,Camilo,Gómez,46
